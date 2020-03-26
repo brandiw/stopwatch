@@ -18,10 +18,14 @@
     <div id="controls">
         <button id="start">Start</button>
         <button id="add-thirty">Add 30s</button>
+        <button id="reset-button">Reset</button>
         <div>
-            <input type="number" id="num" placeholder="How long?">
-            <button id="set-time">Set Time</button>
+            <form id="time-form">
+                <input type="number" id="num" placeholder="How long?">
+                <button type="submit">Set Time</button>
+            </form>
         </div>
+        <p id="message"></p>
     </div>
     <script src="./script.js"></script>
     <audio id="chime" src="./Electronic_Chime.mp3"></audio>

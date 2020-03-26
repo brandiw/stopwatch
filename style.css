@@ -25,18 +25,31 @@ body {
 
 #num {
     padding: 8px;
-    display: block;
-    width: 95%;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid blue;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #9ddbeb;
 }
 
 #start,
 #add-thirty {
-    font-size: 1.5em;
     margin-bottom: 15px;
 }
 
 #set-time {
-    font-size: 1.5em;
     margin-top: 10px;
+}
 
+#message { 
+    color: red;
+    font-size: 1.1em;
 }
